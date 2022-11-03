@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+
+ul li {
+    display: inline;
+    margin: 0 10px;
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+}
+
+.icons i {
+    font-size: 25px;
+    margin-right: 20px;
+    color: black;
+}
+
+
+.banner {
+    width: 100%;
+    background-image: url("images/main_bg-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner .banner-txt {
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px;
+}
+
+.banner-txt h1 {
+    margin-top: 20px;
+    font-size: 50px;
+    color: #fff;
+
+}
+
+.banner-txt p {
+    margin-top: 40px;
+    font-size: 17px;
+    color: #fff;
+
+}
+
+.banner-txt button {
+    margin-top: 50px;
+    font-size: 18px;
+    color: black;
+    padding: 10px;
+    height: 50px;
+    width: 200px;
+    border-radius: 20px;
+    border-style: none;
+
+}
+
+.we-nav {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+}
+
+.we-nav h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.we-2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.part-1 li {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.fa-arrow-right {
+    margin-right: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iteam {
+    width: 25%;
+    padding: 30px;
+}
+
+.iteam img {
+    object-fit: contain;
+    width: 100%;
+    padding: 60px;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.price button {
+    background-color: #007071;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.iteam h4,
+p {
+    margin: 10px 0;
+}
+
+.rec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.rec .locatoin {
+    margin: 0 20px;
+    text-align: center;
+
+}
+
+.locatoin .fa-white {
+    font-size: 40px;
+    font-weight: bolder;
+    color: #fff;
+}
+
+.locatoin p {
+    font-weight: bolder;
+    color: #fff;
+}
+
+.banner .banner-txt-2 {
+    margin: 0 auto;
+    text-align: center;
+    padding: 45px;
+}
+
+.banner-txt-2 h1 {
+    margin-top: 20px;
+    font-size: 50px;
+    color: #fff;
+
+}
+
+.banner-txt-2 p {
+    margin-top: 40px;
+    font-size: 17px;
+    color: #fff;
+
+}
+
+.locatoin .num {
+    font-size: 30px;
+    font-weight: bold;
+    color: #009396;
+    margin: 20px 0px;
+}
+
+.center-txt {
+    text-align: center;
+    font-size: 25px;
+    margin: 40px 0px;
+}
+
+.center-txt h2 {
+    font-size: 30px;
+    margin: 30px 0px;
+}
+
+.center-txt p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+.center-txt img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.center-txt h6 {
+    margin: 10px 0px;
+    font-weight: bold;
+}
+
+.blog {
+    display: flex;
+    margin: 0 40px;
+}
+
+.blog .blog-iteam {
+    width: 33%;
+    padding: 30px;
+}
+
+.blog-iteam img {
+    width: 100%;
+    height: 250px;
+
+}
+
+.blog-iteam .grey-txt {
+    font-size: 15px;
+    color: grey;
+    margin: 10px 0px;
+}
+
+.blog-iteam h2 {
+    font-size: 15px;
+    margin: 10px 0px;
+}
+
+.blog-iteam a {
+    text-decoration: none;
+    color: #009396;
+    font-size: 13px;
+}
+
+.newsltr {
+    background-color: #009396;
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.newsltr h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.newsltr input {
+    height: 50px;
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border-style: none;
+}
+
+.newsltr button {
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: black;
+    color: #fff;
+}
+
+footer {
+    display: flex;
+
+}
+
+footer .f-sec {
+    width: 25%;
+    padding: 50px;
+    line-height: 30px;
+}
+
+.f-sec li {
+    list-style: none;
+}
+
+.f-sec p {
+    font-size: 20px;
+    font-weight: 800;
+    margin: 20px 0px;
+}
+
+.f-sec span {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.f-sec li a {
+    text-decoration: none;
+    line-height: 30px;
+    color: grey;
+}
+
+.f-sec li i {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* media query */
+@media only screen and (max-width: 1115px) {
+
+
+    .iteam img {
+        padding: 10px;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 786px) {
+    .we-2 {
+        display: flex;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+
+    .iteam img {
+        padding: 10px;
+    }
+
+    .iteam {
+        width: 50%;
+    }
+
+    .banner-txt h1 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    .banner-txt-2 h1 {
+        font-size: 33px;
+        line-height: 45px;
+    }
+
+    footer {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+
+
+    }
+
+    footer .f-sec {
+        width: 50%;
+        padding: 40px;
+        line-height: 30px;
+    }
+
+    .newsltr {
+        padding: 20px;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 420px) {
+    .iteam {
+        width: 100%;
+    }
+
+    .banner .banner-txt {
+        padding: 50px;
+
+    }
+
+    .banner .banner-txt-2 {
+        padding: 40px;
+
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+
+    .blog .blog-iteam {
+        width: 100%;
+    }
+
+    .newsltr {
+        text-align: center;
+    }
+
+    .newsltr button,
+    input {
+        margin-top: 20px;
+    }
+
+    footer .f-sec {
+        width: 100%;
+
+    }
+
+    .f-sec li i {
+        font-size: 38px;
+        margin-right: 26px;
+        line-height: 70px;
+    }
+
+}
