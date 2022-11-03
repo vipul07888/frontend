@@ -36,6 +36,14 @@ ul li a {
     color: black;
 }
 
+nav {
+    display: block;
+}
+
+#menu {
+    display: none;
+}
+
 .icons i {
     font-size: 25px;
     margin-right: 20px;
@@ -337,6 +345,38 @@ footer .f-sec {
 }
 
 @media only screen and (max-width: 786px) {
+    header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #menu {
+        display: block;
+        position: sticky;
+    }
+
+    .icons {
+        margin-top: 30px;
+    }
+
+    .fa-bars {
+        position: absolute;
+        right: 40px;
+        font-size: 30px;
+    }
+
+    ul li {
+        display: block;
+        margin: 20px 0px;
+    }
+
     .we-2 {
         display: flex;
         flex-direction: column;
@@ -372,7 +412,7 @@ footer .f-sec {
 
     footer .f-sec {
         width: 50%;
-        padding: 40px;
+        padding: 10px 20px 0 30px;
         line-height: 30px;
     }
 
@@ -383,6 +423,8 @@ footer .f-sec {
 }
 
 @media only screen and (max-width: 420px) {
+
+
     .iteam {
         width: 100%;
     }
@@ -412,6 +454,10 @@ footer .f-sec {
     .newsltr button,
     input {
         margin-top: 20px;
+    }
+
+    .newsltr h2 {
+        font-size: 30px;
     }
 
     footer .f-sec {
